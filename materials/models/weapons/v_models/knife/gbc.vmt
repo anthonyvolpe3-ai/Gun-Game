@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_models/knife/gbcbc"
+	"$bumpmap" "models/weapons/v_models/knife/gbcn"
+$selfillum 1
+$selfillummask "models/weapons/v_models/knife/gbcemissive"
+$selfillumtint "1 1 1"
+
+$phongboost 1.5
+$phongexponent 1.5
+$phongfresnelranges "[0 2 30]"
+$BASEMAPLUMINANCEPHONGMASK 1.5
+$halflambert 1.5
+$phong 1.5
+"GPU>=2?$phong" 1.5
+
+"Proxies"
+{
+"MaterialModifyAnimated"
+{
+"animatedtexturevar" "$basetexture"
+"animatedtextureframenumvar" "$frame"
+"animatedtextureframerate" "10"
+}
+
+}
